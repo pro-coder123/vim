@@ -3,6 +3,9 @@ set autoindent
 set nocompatible              " be iMproved, required
 set showcmd
 set background=dark
+set relativenumber
+set clipboard=unnamed
+set clipboard=unnamedplus
 "colorscheme solarized
 let g:syntastic_java_checkers = []
 let g:EclimFileTypeValidate = 0
